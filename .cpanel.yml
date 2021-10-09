@@ -4,3 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/toolsgue/nodejs/node-hello-world
     - /bin/cp -R * $DEPLOYPATH/
     - rm -f $DEPLOYPATH/README.md
+    - touch tmp/restart.txt
+
